@@ -1,4 +1,4 @@
-# [First CRUD App]
+# First CRUD App
 Type in a StarWars quote from your favourite characters and have it added to our StarWars database! If you're feeling mischievious, play with the available features... just don't get too tempted to join the dark side.....
 
 <div>
