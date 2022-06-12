@@ -67,7 +67,7 @@ const MongoClient = require('mongodb').MongoClient
             })
 
             app.delete('/quotes', (req, res) => {
-                quotesCollection.deleteOne( //MongoDB collections method deleteOne removes a document from the database
+                db.collection('quotes').deleteOne( //MongoDB collections method deleteOne removes a document from the database
                   { name: req.body.name } //filter the collection to name: 'Darth Vadar' (req.body.name gives us the value of the req -> fetch -> the body property of fetch -> the name property of the body property)
                 )
                   .then(result => { // send the response of that delete request back to JavaScript

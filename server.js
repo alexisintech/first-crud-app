@@ -60,7 +60,7 @@ MongoClient.connect('mongodb+srv://first-crud-app:HyYHeuUVNE8uz@cluster0.agshq.m
         })
 
         app.delete('/quotes', (req, res) => {
-            quotesCollection.deleteOne(
+            db.collection('quotes').deleteOne(
               { name: req.body.name }
             )
               .then(result => {
