@@ -3,7 +3,7 @@ Type in a StarWars quote from your favourite characters and have it added to our
 
 <div>
   <a href="#" target=_blank>
-    <img src="crudgif.gif" height="100%" />
+    <img src="crudgif.gif" width="100%" />
   </a>
 </div>
 
